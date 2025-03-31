@@ -1,0 +1,363 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    }
+    
+    body{
+        background-color:#F2F2F2 ;
+    }
+    
+
+    header {
+        display: flex;
+        width: 100vw ;
+        height: 80px;
+        background-color: #EE7000;
+        justify-content: space-evenly;
+        align-items: center;
+        }
+    
+    nav ul {
+        background-color: #EE7000;
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+       
+        }
+       
+        nav ul li {
+          float: left;
+        }
+       
+        nav ul li a {
+          display: block;
+          color: #EE7000;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+       
+        nav ul li a:hover {
+          background-color: #EE7000;
+        }
+    
+        .login-account{
+            width: 100px;
+            height: 40px;
+            background-color: #a2c52c;
+            border-radius: 10px;
+            position: absolute;
+            right: 0;
+        }
+
+        .login-account h1{
+            font-size: 15px;
+            text-align: center;
+            margin-top: 3px;
+            
+        }
+
+
+    .container {
+        display: flex;
+        justify-content: center;
+        gap: 50px; /* Geeft ruimte tussen de items */
+    }
+    
+    .kapsalon-shoarma,
+    .kapsalon-kip,
+    .kapsalon-vega {
+        width: 200px;
+        height: 300px;
+        background-color: white;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Schaduw */
+        border-radius: 30px;
+        margin-top: 60px;
+    }
+    
+    
+    .container-1{
+        display: flex;
+        justify-content: center;
+        gap: 50px; /* Geeft ruimte tussen de items */
+        margin-top: 50px;
+    }
+    
+    .kapsalon-doner,
+    .kapsalon-kebab,
+    .kapsalon-vis {
+        width: 200px;
+        height: 300px;
+        background-color: white;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Schaduw */
+        border-radius: 30px;
+    }
+    
+    .container-2{
+        display: flex;
+        justify-content: center;
+        gap: 50px; /* Geeft ruimte tussen de items */
+        margin-top: 50px;
+    }
+    
+    .combi-drinken,
+    .combi-ijs,
+    .friet-deal {
+        width: 200px;
+        height: 300px;
+        background-color: white;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Schaduw */
+        border-radius: 30px;
+    }
+    .kapsalon-kip h2{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 120px;
+    }
+    .submit {
+        width: 100px;
+        height: 40px;
+        background-color: #a2c52c;
+       border-radius: 30px;
+       margin-top :40px;
+    }
+    
+    .container-kip{
+        position: absolute;
+        right: 675px;
+    }
+
+    .container-kip img{
+        width: 150px;
+      position: absolute;
+      left: -60px;
+        margin-top: -150px;
+    }
+
+
+    .kapsalon-shoarma h2{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 120px;
+    }
+    .submit-shoarma {
+        width: 100px;
+        height: 40px;
+        background-color: #a2c52c;
+       border-radius: 30px;
+       margin-top :37px;
+    }
+    
+    .container-Shoarma{
+        position: absolute;
+        right: 920px;
+    }
+
+    .container-Shoarma img{
+        width: 150px;
+      position: absolute;
+      left: -60px;
+        margin-top: -140px;
+    }
+
+
+    .kapsalon-vega h2{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 120px;
+    }
+    .submit-vega {
+        width: 100px;
+        height: 40px;
+        background-color: #a2c52c;
+       border-radius: 30px;
+       margin-top :37px;
+    }
+    
+    .container-vega{
+        position: absolute;
+        right: 425px;
+    }
+
+    .container-vega img{
+        width: 150px;
+      position: absolute;
+      left: -60px;
+        margin-top: -155px;
+    }
+
+
+    .kapsalon-doner h2{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 130px;
+    }
+
+
+    .submit-doner {
+        width: 100px;
+        height: 40px;
+        background-color: #a2c52c;
+       border-radius: 30px;
+       margin-top :25px;
+    }
+    
+    .container-doner{
+        position: absolute;
+        right: 920px;
+    }
+
+    
+    .container-doner img{
+        width: 150px;
+      position: absolute;
+      left: -60px;
+        margin-top: -155px;
+    }
+
+    .kapsalon-kebab h2{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 130px;
+    }
+
+
+    .submit-kebab {
+        width: 100px;
+        height: 40px;
+        background-color: #a2c52c;
+       border-radius: 30px;
+       margin-top :25px;
+    }
+    
+    .container-kebab{
+        position: absolute;
+        right: 670px;
+    }
+
+    
+    .container-kebab img{
+        width: 150px;
+      position: absolute;
+      left: -65px;
+        margin-top: -155px;
+    }
+
+
+
+    .kapsalon-vis h2{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 130px;
+    }
+
+
+    .submit-vis {
+        width: 100px;
+        height: 40px;
+        background-color: #a2c52c;
+       border-radius: 30px;
+       margin-top :25px;
+    }
+    
+    .container-vis{
+        position: absolute;
+        right: 420px;
+    }
+
+    
+    .container-vis img{
+        width: 150px;
+      position: absolute;
+      left: -65px;
+        margin-top: -155px;
+    }
+
+
+    .combi-drinken h2{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 130px;
+    }
+
+
+    .submit-combi-drinken {
+        width: 100px;
+        height: 40px;
+        background-color: #a2c52c;
+       border-radius: 30px;
+       margin-top :25px;
+    }
+    
+    .container-combi-drinken{
+        position: absolute;
+        right: 920px;
+    }
+
+    
+    .container-combi-drinken img{
+        width: 105px;
+      position: absolute;
+      left: -40px;
+        margin-top: -155px;
+    }
+    
+
+
+    .combi-ijs h2{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 130px;
+    }
+
+
+    .submit-combi-ijs {
+        width: 100px;
+        height: 40px;
+        background-color: #a2c52c;
+       border-radius: 30px;
+       margin-top :25px;
+    }
+    
+    .container-combi-ijs{
+        position: absolute;
+        right: 670px;
+    }
+
+    
+    .combi-ijs img{
+        width: 150px;
+      position: absolute;
+      left: -65px;
+        margin-top: -190px;
+    }
+
+    .friet-deal h2{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 130px;
+    }
+
+
+    .submit-friet-deal {
+        width: 100px;
+        height: 40px;
+        background-color: #a2c52c;
+       border-radius: 30px;
+       margin-top :25px;
+    }
+    
+    .container-friet-deal{
+        position: absolute;
+        right: 420px;
+    }
+
+    
+    .container-friet-deal img{
+        width: 150px;
+      position: absolute;
+      left: -65px;
+        margin-top: -155px;
+    }
