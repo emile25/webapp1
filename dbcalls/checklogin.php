@@ -1,17 +1,19 @@
 <?php
-include("conn.php");
+    include("conn.php");
+    $stmt = $conn->prepare("SELECT * FROM Users WHERE username = :username AND password = :password;");
+    $stmt->bindParam(":username", $_POST['username']);
+    $stmt->bindParam(":password", $_POST['password']);
+    $stmt->execute();
+    $result = $stmt->fetch();
 
-$stmt = $conn->prepare("SELECT * FROM users WHERE Username = username AND password = :password;");
-$stmt->bindParam(":username"  $_POST ['username'] );
-$stmt->bindParam(":password"  $_POST ['password'] );
-$stmt->execute();
-$result = $stmt->fetch();
-
-session_start();
+    session_start();
 
 if ($result){
-    $_SESSION['username'] = $result['Username'];
+    $_SESSION['username'] = $result['username'];
+    header(header: 'location: ../beheer.php');
+ 
 }
-else {
-    echo 'niet ingelogd';
+else{
+    echo 'boehoe';
 }
+
